@@ -1,3 +1,3 @@
 // Total months
 var totalMonths = finances.length;
-console.log(totalMonths);
+console.log("Total Months: ", totalMonths);
