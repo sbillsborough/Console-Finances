@@ -13,8 +13,8 @@ for (var index = 0; index < finances.length; index++) {
 
 console.log(`Total: ${netTotalProfitLoss}`);
 
-var averageChange = Math.ceil((netTotalProfitLoss / totalMonths) * 100) / 100;
-
 // Average Change
+
+var averageChange = Math.ceil((netTotalProfitLoss / totalMonths) * 100) / 100;
 
 console.log(`Average Change: ${averageChange}`);
