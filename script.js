@@ -1,3 +1,5 @@
+console.log("Financial Analysis \n----------------------------");
+
 // Total months
 var totalMonths = finances.length;
 console.log("Total Months: ", totalMonths);
@@ -12,5 +14,7 @@ for (var index = 0; index < finances.length; index++) {
 console.log(`Total: ${netTotalProfitLoss}`);
 
 var averageChange = Math.ceil((netTotalProfitLoss / totalMonths) * 100) / 100;
+
+// Average Change
 
 console.log(`Average Change: ${averageChange}`);
