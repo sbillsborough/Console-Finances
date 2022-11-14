@@ -37,5 +37,5 @@ console.log(
   "Greatest Increase in Profits: " + highest[0] + " ($" + highest[1] + ")"
 );
 console.log(
-  "Greatest Decrese in Profits: " + lowest[0] + " ($" + lowest[1] + ")"
+  "Greatest Decrease in Profits: " + lowest[0] + " ($" + lowest[1] + ")"
 );
