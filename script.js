@@ -11,13 +11,13 @@ for (var index = 0; index < finances.length; index++) {
   netTotalProfitLoss += finances[index][1];
 }
 
-console.log("Total: ", netTotalProfitLoss);
+console.log("Total: " + "$" + netTotalProfitLoss);
 
 // Average Change
 
 var averageChange = Math.ceil((netTotalProfitLoss / totalMonths) * 100) / 100;
 
-console.log("Average Change: ", averageChange);
+console.log("Average Change: " + "$" + averageChange);
 
 // Greatest Increase / Decrease
 
@@ -33,5 +33,9 @@ for (var main_index = 0; main_index < finances.length; main_index++) {
 highest = sorted.at(-1);
 lowest = sorted[0];
 
-console.log("Greatest Increase in Profits: ", highest[0], highest[1]);
-console.log("Greatest Decrese in Profits: ", lowest[0], lowest[1]);
+console.log(
+  "Greatest Increase in Profits: " + highest[0] + " ($" + highest[1] + ")"
+);
+console.log(
+  "Greatest Decrese in Profits: " + lowest[0] + " ($" + lowest[1] + ")"
+);
